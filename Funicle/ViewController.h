@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSArray *dots;
+    float hue;
+    BOOL ascending;
+    UIColor *dotColor;
+}
 
 
 @end
